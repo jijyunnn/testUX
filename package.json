@@ -8,7 +8,8 @@
     "storybook": "pnpm --filter @repo/ui storybook",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "deploy": "gh-pages -d public-dist"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
